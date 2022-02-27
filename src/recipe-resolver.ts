@@ -30,7 +30,7 @@ export class RecipeResolver implements ResolverInterface<Recipe> {
 
   @Query(returns => [Recipe], { description: "Get all the recipes from around the world " })
   async recipes(): Promise<Recipe[]> {
-    console.log(this.items)
+    console.log("items:", this.items)
     return await this.items;
   }
 

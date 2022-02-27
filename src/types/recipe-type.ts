@@ -1,7 +1,10 @@
-import { Field, ObjectType, Int, Float } from "type-graphql";
+import { Field, ObjectType, Int, Float, Extensions} from "type-graphql";
 
 @ObjectType({ description: "Object representing cooking recipe" })
+@Extensions({base: "data", directory: "recipes" })
+
 export class Recipe {
+
   @Field()
   title: string;
 
