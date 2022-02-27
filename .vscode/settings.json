@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+    "/Users/bjk/src/github.com/bketelsen/web/modern/schemas/recipe.json": "data/recipes/*.yaml",
+  }
+}
