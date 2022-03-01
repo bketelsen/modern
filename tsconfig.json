@@ -1,12 +1,13 @@
 {
-    "compilerOptions": {
-      "target": "es2018",
-      "module": "commonjs",
-      "lib": ["es2018", "esnext.asynciterable"],
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "outDir": "./dist",
-      "esModuleInterop": true,
-      "rootDir": "./src",
-    }
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNEXT",
+    "lib": ["es2018", "esnext.asynciterable"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "rootDirs": ["schemata", "./src"]
   }
+}
